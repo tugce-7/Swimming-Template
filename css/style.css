@@ -1,0 +1,324 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style:none;
+    box-sizing: border-box;
+}
+body{
+ 
+    font-family: 'Roboto', sans-serif;
+}
+
+/*NAVBAR*/
+nav{
+    background:#fff;
+    height: 80px;
+    width: 100%;
+}
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 30px;
+}
+nav ul li a{
+    color:#000;
+    font-size: 17px;
+    padding: 30px 17px ;
+}
+a.active,a:hover{
+    background-color: #663dff;
+background-image: linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100%);
+    
+    color: #fff;
+    transition: .5s;
+}
+label.logo{
+    color:cornflowerblue;
+    font-size: 51px;
+    line-height: 80px;
+    padding: 0 100px;
+
+}
+
+.checkbtn{
+    font-size: 30px;
+    color:cornflowerblue;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display:none;
+
+}
+#check{
+    display:none;
+}
+@media (max-width: 952px){
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 15px;
+    }
+}
+@media (max-width: 858px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: cornflowerblue;
+        top: 80px;
+        left:-100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+       
+    }
+    nav ul li a{
+        font-size: 20px;
+        color: #fff;
+    }
+    a:hover,a.active{
+        background: none;
+        font-weight: bold;
+        font-size: 22px;
+        color:#fff;
+    }
+    #check:checked ~ul{
+        left: 0;
+    }
+}
+/* /NAVBAR */
+
+.row img{
+    width: 100%;
+}
+
+footer{
+    color:dimgray;
+    text-align: center;
+    margin-bottom: 50px;}
+    /**/
+    h2 {
+        font: 300 33px/40px ;
+        font-weight:bold;
+        color: #ffffff;
+        margin: 0 0 23px;
+      }
+      h3 {
+        font: 16px/20px ;
+        color: #ffffff;
+        margin: 0 0 6px;
+      }
+      p {
+        margin-bottom: 24px;
+        font: 15px/20px ;
+      }
+      
+      hr {
+          background-color: #51596d;
+          border: none;
+          height: 1px;
+          margin: 0 0 21px;
+      }
+      
+      .contact {
+        padding: 63px 85px 50px 80px;
+        color: #ffffff;
+        width: 570px;
+        height: 370px;
+        background-color: #007BC6;
+        margin: 60px auto;
+        
+        /* box-shadow */
+      }
+      .prefix {
+        width: 48px;
+        display: inline-block;
+        font-size: 30px;
+      
+      }
+      .email {
+        color: #ffffff;
+        margin-left: 5px;
+        -webkit-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+      }
+   /**/
+
+   .oureventcard {
+    padding: 63px 85px 50px 80px;
+    color: #ffffff;
+    font-size: 16px;
+    width: 570px;
+    height: 370px;    
+    background-color :#ff4e00;
+    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+    margin: 60px auto;  
+      
+  }
+  .content {
+    padding: 63px 85px 50px 80px;
+    color: #1f1e1e;
+    font-size: 18px;
+    width: 570px;
+    height: 370px;    
+    background-color :#F7F7F7;
+    margin: 60px auto;  
+      
+  }
+  .content h2{
+      color:#000;
+  }
+
+  
+   /**/
+
+   .content button{
+    background-color :#ff4e00;
+    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+    
+  
+   }
+
+   .card{
+       color:#fff;
+       width: 250px;
+       height: 320px;
+       
+   }
+
+   .card p{
+       font-size: 20px;
+
+   }
+   .card h2{
+       font-weight: bold;
+   }
+
+   .info {
+    padding: 63px 85px 50px 80px;
+
+    color: #ffffff;
+    width: 200px;
+    height: 720px;    
+    background-color :#d60e5b;
+    opacity: 80%;
+   margin-left:90px;
+    position:relative; top: -720px;
+      
+  }
+
+  .info h1{
+      padding-left: 50px;
+      font-size: 50px;
+  }
+
+  .info p {
+    padding: 20px 50px 5px 50px;
+
+    font-size: 16px;
+
+  }
+  .info button{
+     
+      margin-left: 50px;
+    
+    
+  }
+
+  /***/
+  
+
+
+.cards {
+    border: none;
+    box-shadow: 0 0 3px #0000001a;
+    width: 250px;
+    height: 300px;
+}
+.cards h3{
+    position:absolute;
+    bottom: -10px;
+
+    color:darkorange;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    
+}
+
+.owl-item {
+    padding: 10px;
+}
+
+.cards-yazı p {
+    padding: 30px 40px 50px 40px;
+
+    font-weight: 500;
+}
+
+
+
+.cards-yazı {
+    background-color:#F3F3F3;
+    position: relative;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.favicon {
+    width: 100%;
+    height: auto;
+}
+
+.favicon img {
+    height: 90px;
+    width: 90px !important;
+    position: absolute;
+    bottom:270px;
+    left: 39%;
+    border-radius: 100px;
+    border: 1px solid white;
+}
+
+
+
+
+.isim h1 {
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.isim p {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+@media screen and (max-width: 650px) {
+ .content1 .card{
+     
+
+        color:#fff;
+        width: 125px;
+        height: 160px;
+        
+    
+
+ }
+}
