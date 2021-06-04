@@ -3,7 +3,7 @@
 Swimming landing page template Free Psd
 
 
-##Swimming Template | HTML CSS
+## Swimming Template | HTML CSS
 
 -----------------------------
 
